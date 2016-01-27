@@ -4,7 +4,7 @@
 
 #Name of the file, we're running
 $TheFile="counter1.txt";
-#Open the file, quit if its not there.
+#Open the file, quit if its not there. INFILE is the file handle.
 open(INFILE,$TheFile) or die "The file could not be found. Quitting now.\n";
 
 #Initialize the counters.
